@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 p,
 h1,
@@ -19,6 +23,7 @@ header {
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
+  z-index: 10;
 }
 
 .header-left {
@@ -122,4 +127,53 @@ header {
 
 .fa {
   margin-right: 5px;
+}
+
+/* Skill Section Start */
+
+.skill-wrapper {
+  text-align: center;
+  background-color: rgb(33, 40, 50);
+  color: white;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 45px;
+  opacity: 0.8;
+}
+.card i {
+  color: white;
+  size-adjust: 40px;
+  margin-bottom: -10px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 23px;
+  font-weight: 500;
+  padding: -10px 0 10px 0;
+  text-transform: capitalize;
+}
+
+.card {
+  width: 32%;
+  background: #222;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-image: linear-gradient(62deg, #fbab7e, #f7ce68);
+  color: black;
 }
