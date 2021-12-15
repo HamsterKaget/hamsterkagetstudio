@@ -1,0 +1,125 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Patrick Hand', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar Section Start */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h3 {
+  color: azure;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+
+.header-left h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.login {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  color: aliceblue;
+  line-height: 65px;
+  padding: 0 25px;
+  display: inline-block;
+}
+
+/* Top Section Start */
+
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
