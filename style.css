@@ -15,6 +15,7 @@ h4 {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 /* Navbar Section Start */
@@ -87,7 +88,7 @@ header {
 }
 
 .container {
-  width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -134,7 +135,11 @@ header {
 .skill-wrapper {
   text-align: center;
   background-color: rgb(33, 40, 50);
+  height: 725px;
+  padding-bottom: 50px;
   color: white;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
 }
 
 .container h2 {
@@ -171,9 +176,48 @@ header {
   padding: 20px 15px;
   margin-bottom: 20px;
   border-radius: 10px;
+  transition: all 0.5s;
 }
 
 .card:hover {
-  background-image: linear-gradient(62deg, #fbab7e, #f7ce68);
+  color: black;
+}
+
+.purple:hover {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.orange:hover {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.green:hover {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.bublegum:hover {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.blue:hover {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+.red:hover {
+  background-color: #ff9a8b;
+  background-image: linear-gradient(90deg, #ff9a8b 0%, #ff6a88 55%, #ff99ac 100%);
+}
+
+.red a {
+  color: white;
+  margin-left: 5px;
+}
+
+.red a:hover {
   color: black;
 }

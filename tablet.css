@@ -1,0 +1,25 @@
+@media (max-width: 1000px) {
+  /* navbar tablet */
+
+  /* top tablet */
+
+  /* skill tablet */
+
+  .skill-wrapper {
+    border-radius: 0%;
+  }
+
+  .card {
+    width: 45%;
+    margin: 12px auto;
+  }
+  .title {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .card p {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}

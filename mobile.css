@@ -1,0 +1,36 @@
+@media (max-width: 670px) {
+  /* Navbar Mobile */
+
+  .header-right a {
+    display: none;
+  }
+
+  /* Top Mobile */
+
+  .top-wrapper .btn {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .facebook {
+    margin-bottom: 12px;
+  }
+
+  .pengertian {
+    display: none;
+  }
+
+  /* Skill Mobile */
+
+  .skill-wrapper {
+    height: 1400px;
+    border-radius: 0%;
+  }
+
+  .card {
+    width: 95%;
+    margin: 10px auto;
+  }
+}
