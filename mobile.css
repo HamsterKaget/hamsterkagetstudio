@@ -33,4 +33,15 @@
     width: 95%;
     margin: 10px auto;
   }
+
+  .testi-container {
+    margin-top: 550px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-card .cards .card {
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
 }

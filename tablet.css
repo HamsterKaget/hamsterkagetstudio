@@ -22,4 +22,34 @@
     font-size: 15px;
     letter-spacing: 1px;
   }
+
+  .features-top {
+    margin-top: 250px;
+  }
+
+  .features-item {
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-top p {
+    padding: 0;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-card .cards .card {
+    margin: 20px 0 10px 0;
+    width: calc(100% / 2 - 10px);
+  }
+
+  .testi-container {
+    margin-top: 200px;
+  }
 }
