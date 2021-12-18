@@ -7,6 +7,42 @@
 
   /* Top Mobile */
 
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: center;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   .top-wrapper .btn {
     display: block;
     width: 80%;
@@ -37,11 +73,29 @@
   .testi-container {
     margin-top: 550px;
   }
+
+  /* features mobile */
+
+  .features-top {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 600px) {
   .main-card .cards .card {
     /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
+}
+
+@media (max-width: 370px) {
+  .features-top {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 698px) {
+  .wrapper .table {
     width: 100%;
   }
 }

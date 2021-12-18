@@ -2,6 +2,18 @@
   /* navbar tablet */
 
   /* top tablet */
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
 
   /* skill tablet */
 
@@ -32,6 +44,13 @@
     margin-top: 1rem;
     text-align: center;
     width: 45%;
+  }
+}
+
+@media (max-width: 1020px) {
+  .wrapper .table {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
   }
 }
 
