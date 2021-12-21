@@ -1,0 +1,64 @@
+Front end Developer - background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+Java Developer - background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+UI UX Designer - background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+Wordpress Developer - background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+Discord Server Builder - background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+Content Creator - background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+
+___________________________________________________________
+
+Harga Terjangkau - 
+
+7 Hari Garansi - date-range
+
+Fast Delivery - schedule
+
+Design Original- copyright
+
+Profesional -  manage_accounts
+
+50+ Testimoni - fast-check
+
+
+______________________________________
+
+Basic
+
+|| yes ||
+standar server
+full setup bot
+
+|| no ||
+Aesthetic Design
+Request 
+
+
+Premium
+
+|| yes ||
+standar server
+full setup bot
+Aesthetic Design
+
+|| no ||
+Request 
+
+Profesional
+
+|| yes ||
+standar server
+full setup bot
+Aesthetic Design
+full Request 
