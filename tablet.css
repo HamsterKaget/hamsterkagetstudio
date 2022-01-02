@@ -72,3 +72,18 @@
     margin-top: 200px;
   }
 }
+
+@media (max-width: 820px) {
+  .faq-wrapper .accordion {
+    margin-top: 14rem;
+  }
+
+  .testimonial-wrapper {
+    margin-top: 1rem;
+  }
+
+  .testi-container .heading-title {
+    font-size: 38px;
+    margin-top: 1rem;
+  }
+}

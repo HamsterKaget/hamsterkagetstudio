@@ -19,7 +19,12 @@
     <link rel="stylesheet" href="tablet.css" />
     <link rel="stylesheet" href="mobile.css" />
 
+    <link href="/Image/logo.png">
     <title>HamsterKaget Studio</title>
+
+    <!-- Google login -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
   </head>
   <body>
     <!-- Navbar Section Start -->
@@ -33,7 +38,7 @@
         <div class="header-right">
           <a href="index.html">Home</a>
           <a href="#">Services</a>
-          <a href="#">About Us</a>
+          <a href="about.html">About Us</a>
           <a href="#" class="login">Log in</a>
         </div>
       </div>
@@ -48,7 +53,9 @@
         <p class="pengertian">HamsterKaget Studio adalah website yang menyediakan berbagai jasa berkualitas dengan harga yang murah</p>
         <p>kami menawarkan jasa yang berkualitas dengan harga yang murah, sehingga kamu bisa membangun komunitas kamu dengan lebih mudah</p>
         <div class="btn-wrapper">
-          <a href="#" class="btn signup">Daftar Dengan Email</a>
+          <div class="g-signin2" data-onsuccess="onSignIn">
+           <a href="#" class="btn signup">Daftar Dengan Email</a>
+          </div>
           <p>atau</p>
           <a href="#" class="btn facebook">Daftar Dengan Facebook</a>
           <a href="#" class="btn twitter">Daftar Dengan Twitter</a>

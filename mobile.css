@@ -86,6 +86,10 @@
     /* margin: 20px 0 10px 0; */
     width: 100%;
   }
+
+  .faq-wrapper .accordion {
+    margin-top: 50rem;
+  }
 }
 
 @media (max-width: 370px) {
@@ -97,5 +101,11 @@
 @media (max-width: 698px) {
   .wrapper .table {
     width: 100%;
+  }
+}
+
+@media (max-width: 670px) {
+  .faq-wrapper .accordion {
+    margin-top: 26rem;
   }
 }
